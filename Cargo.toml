@@ -1,5 +1,4 @@
 [package]
-
 name = "eth-secp256k1"
 version = "0.5.7"
 authors = [ "Dawid Ciężarkiewicz <dpc@ucore.info>",
@@ -18,7 +17,7 @@ cc = "1.0"
 cfg-if = "0.1"
 
 [lib]
-name = "secp256k1"
+name = "eth_secp256k1"
 path = "src/lib.rs"
 
 [features]
